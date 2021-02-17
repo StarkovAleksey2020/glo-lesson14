@@ -1,0 +1,40 @@
+* {
+  font-size: 16px;
+  color: black;
+}
+.selector {
+  width: 100%;
+  height: 100%;
+}
+.selector-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.selector-title {
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+}
+.selector-form {
+  width: 40%;
+  min-height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.selector-item {
+  margin-bottom: 10px;
+  padding: 5px;
+  min-height: 32px;
+}
+.selector-text {
+  resize: none;
+}
+.selector-submit {
+  width: 200px;
+  margin: 0 auto;
+}
+.selector-place {
+  margin-top: 20px;
+}
